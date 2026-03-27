@@ -51,6 +51,10 @@ public class BattleContext {
         }
     }
 
+    public List<Enemy> getBackupEnemies(){
+        return backupEnemies;
+    }
+
     public void endTurn(){
         if (smokeBombTurnsLeft != 0){
             smokeBombTurnsLeft --;
