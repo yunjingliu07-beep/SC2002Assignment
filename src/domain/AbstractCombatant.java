@@ -14,7 +14,6 @@ public abstract class AbstractCombatant implements Combatant {
     protected int def;
     protected int spd;
     protected List<StatusEffects> effects = new ArrayList<>();
-    protected List<Actions> actions = new ArrayList<>();
 
     // Constructor
     public AbstractCombatant(String name, int hp, int atk, int def, int spd) {
@@ -24,9 +23,6 @@ public abstract class AbstractCombatant implements Combatant {
         this.atk = atk;
         this.def = def;
         this.spd = spd;
-        actions.add(new BasicAttackAction());
-        actions.add(new DefendAction());
-        actions.add(new UseItemAction());
     }
 
     @Override
