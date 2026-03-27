@@ -2,12 +2,15 @@ package control;
 
 import domain.Enemy;
 import domain.Player;
+import domain.Warrior;
+import domain.Wizard;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class BattleContext {
     private Player player;
+    private String specialSkill;
     private List<Enemy> enemiesAlive;
     private List<Enemy> backupEnemies;
     private int smokeBombTurnsLeft;
