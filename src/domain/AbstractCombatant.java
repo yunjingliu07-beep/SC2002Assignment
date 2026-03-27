@@ -15,7 +15,6 @@ public abstract class AbstractCombatant implements Combatant {
     protected int spd;
     protected List<StatusEffects> effects = new ArrayList<>();
     protected List<Actions> actions = new ArrayList<>();
-    protected List<SpecialSkill> = skills = new ArrayList<>();
 
     // Constructor
     public AbstractCombatant(String name, int hp, int atk, int def, int spd) {
