@@ -19,4 +19,6 @@ public interface Combatant {
     void tickEffects();
     boolean canAct();
 
+    String getCurrentAttribute();
+
 }

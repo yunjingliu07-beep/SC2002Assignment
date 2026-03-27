@@ -1,5 +1,6 @@
 package domain;
 
+import actions.Actions;
 import effects.StatusEffects;
 
 import java.util.ArrayList;
@@ -13,6 +14,8 @@ public abstract class AbstractCombatant implements Combatant {
     protected int def;
     protected int spd;
     protected List<StatusEffects> effects = new ArrayList<>();
+    protected List<Actions> actions = new ArrayList<>();
+    protected List<SpecialSkill> = skills = new ArrayList<>();
 
     // Constructor
     public AbstractCombatant(String name, int hp, int atk, int def, int spd) {
@@ -22,6 +25,9 @@ public abstract class AbstractCombatant implements Combatant {
         this.atk = atk;
         this.def = def;
         this.spd = spd;
+        actions.add(new BasicAttackAction());
+        actions.add(new DefendAction());
+        actions.add(new UseItemAction());
     }
 
     @Override
@@ -99,6 +105,12 @@ public abstract class AbstractCombatant implements Combatant {
     public boolean canAct(){
         // If none of the status effects blocks action, return true
         return effects.stream().noneMatch(StatusEffects::blockAction);
+    }
+
+    @Override
+    public String getCurrentAttribute(){
+        return String.format("%s [HP=%d/%d, ATK=%d, DEF=%d, SPD=%d]",
+                name, hp, maxHp, getAtk(), getDef(), spd);
     }
 
 }
