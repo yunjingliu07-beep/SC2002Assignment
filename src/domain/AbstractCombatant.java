@@ -112,4 +112,7 @@ public abstract class AbstractCombatant implements Combatant {
                 name, hp, maxHp, getAtk(), getDef(), spd);
     }
 
+    public List<Actions> getActions(){
+        return actions;
+    }
 }
