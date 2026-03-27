@@ -30,6 +30,7 @@ public class ShieldBash extends SpecialSkill{
 
         int dmg = Math.max(0, player.getAtk() - target.getDef());
         System.out.println(actor.getName() + " uses Shield Bash on " + target.getName() + "!");
+        System.out.println("The damage is " + dmg);
         target.takeDamage(dmg);
         if (!target.isAlive()){
             System.out.println(actor.getName() + " has defeated "+ target.getName());
