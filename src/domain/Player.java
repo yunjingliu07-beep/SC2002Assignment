@@ -21,5 +21,9 @@ public abstract class Player extends AbstractCombatant{
         }
     }
 
+    public Inventory getInventory() {
+        return inventory;
+    }
+
     public abstract void useSpecialSkill(boolean consumeCoolDown);
 }
