@@ -65,7 +65,7 @@ public abstract class AbstractCombatant implements Combatant {
 
     @Override
     public void takeDamage(int damage) {
-        this.hp -= damage;
+        this.hp = Math.min(0,this.hp-damage);
     }
 
     @Override
@@ -80,8 +80,25 @@ public abstract class AbstractCombatant implements Combatant {
     }
 
     @Override
+    public void removeExpiredEffect(){
+        for (StatusEffects e: effects){
+            if (e.isExpired()){
+                effects.remove(e);
+            }
+        }
+    }
+
+    @Override
+    public void tickEffects() {
+        for (StatusEffects e: effects){
+            e.onTick();
+        }
+    }
+
+    @Override
     public boolean canAct(){
         // If none of the status effects blocks action, return true
         return effects.stream().noneMatch(StatusEffects::blockAction);
     }
+
 }
