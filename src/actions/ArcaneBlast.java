@@ -25,6 +25,7 @@ public class ArcaneBlast extends SpecialSkill{
         if (consumeCooldown && !player.canUseSpecialSkill()) {
             System.out.println(player.getName() + "'s Arcane Blast is on cooldown for "
                     + player.getSpecialCooldown() + " more turn(s).");
+            return false;
         }
         int kills = 0;
         List<Enemy> enemyAlive = ctx.getAliveEnemies();

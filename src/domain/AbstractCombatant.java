@@ -72,7 +72,7 @@ public abstract class AbstractCombatant implements Combatant {
     @Override
     public void heal(int amount) {
         this.hp += amount;
-        this.hp = Math.max(this.hp, this.maxHp);
+        this.hp = Math.min(this.hp, this.maxHp);
     }
 
     @Override

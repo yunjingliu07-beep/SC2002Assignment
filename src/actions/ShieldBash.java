@@ -28,6 +28,7 @@ public class ShieldBash extends SpecialSkill{
         if (consumeCooldown && !player.canUseSpecialSkill()) {
             System.out.println(player.getName() + "'s Shield Bash is on cooldown for "
                     + player.getSpecialCooldown() + " more turn(s).");
+            return false;
         }
 
         // Perform basic attack to the enemy
