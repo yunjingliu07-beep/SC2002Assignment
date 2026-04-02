@@ -19,6 +19,7 @@ public interface GameUI {
     int choosePlayerActions();
     void showEnemies(BattleContext ctx);
     int chooseTarget(BattleContext ctx);
+    int chooseItem(BattleContext ctx);
 
     //Methods after the game ends
     void showBattleResult(boolean victory, BattleContext ctx);

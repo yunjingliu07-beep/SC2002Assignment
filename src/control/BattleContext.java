@@ -41,7 +41,7 @@ public class BattleContext {
     }
 
     public void activateSmokeBomb(){
-        smokeBombTurnsLeft = 2;
+        smokeBombTurnsLeft = 3;
     }
 
     public boolean isSmokeBombActive(){

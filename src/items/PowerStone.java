@@ -29,7 +29,7 @@ public class PowerStone implements Items{
             SBaction.execute(ctx, p);
         }
         else if  (p instanceof Wizard) {
-            ArcaneBlast ABaction = new ArcaneBlast(true);
+            ArcaneBlast ABaction = new ArcaneBlast(false);
             ABaction.execute(ctx, p);
         }
         p.useSpecialSkill(false); // Power stone can be used without cooldown

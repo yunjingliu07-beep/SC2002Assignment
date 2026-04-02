@@ -4,7 +4,7 @@ import items.Inventory;
 
 public abstract class Player extends AbstractCombatant{
     protected Inventory inventory;
-    protected int specialCooldown;
+    protected int specialCooldown = 0;
 
     public Player(String name, int hp, int atk, int def, int spd) {
         super(name, hp, atk, def, spd);

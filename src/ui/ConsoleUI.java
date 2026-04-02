@@ -5,6 +5,8 @@ import control.BattleEngine;
 import control.BattleOutcome;
 import control.Difficulty;
 import domain.Enemy;
+import domain.Player;
+import items.Inventory;
 
 import java.util.List;
 import java.util.Scanner;
@@ -117,6 +119,21 @@ public class ConsoleUI implements GameUI {
         this.showEnemies(ctx);
         int target = input.nextInt();
         return target;
+    }
+    @Override
+    public int chooseItem(BattleContext ctx) {
+        Player player = ctx.getPlayer();
+        Inventory playerInventory = player.getInventory();
+        if (playerInventory.displayItems()){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the number of the item you want to use:");
+            int choice = sc.nextInt();
+            return choice;
+        }
+        else{
+            return -1;
+        }
+
     }
 
     //Methods after the game ends
