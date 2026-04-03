@@ -6,6 +6,7 @@ import ui.GameUI;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BattleEngine {
     private final GameUI gameUI;
@@ -57,6 +58,11 @@ public class BattleEngine {
                 else{
                     if(combatant.canAct()) {
                         enemyTurn((Enemy)  combatant, ctx);
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException ignored) {
+                            // Do nothing if interrupted
+                        }
                         //Enemy turn ends, update effects
                         combatant.tickEffects();
                     }
