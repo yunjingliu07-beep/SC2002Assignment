@@ -145,6 +145,9 @@ public class ConsoleUI implements GameUI {
         }
         else {
             System.out.println("After " + BattleEngine.getCurrentTurn() + "turn(s), you are defeated by enemies!");
+            System.out.println("Don't give up! Try again!");
+            System.out.println("Enemies remaining: \n");
+            this.showEnemies(ctx);
         }
     }
     @Override
