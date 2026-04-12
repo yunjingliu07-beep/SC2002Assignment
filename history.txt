@@ -1,0 +1,90 @@
+356f9b4 - Blaze, Wed Apr 8 14:34:32 2026 +0800 : Merge remote-tracking branch 'origin/main'
+f84c0be - Blaze, Wed Apr 8 14:34:17 2026 +0800 : upload git commit history
+ff46880 - Amyxu0620, Sat Apr 4 23:16:01 2026 +0800 : Update README.md
+aab7a82 - Amyxu0620, Sat Apr 4 23:13:52 2026 +0800 : Update Actions.java
+77ac075 - Blaze, Fri Apr 3 15:49:05 2026 +0800 : minor bug fixes
+27b3af3 - Blaze, Fri Apr 3 15:42:00 2026 +0800 : minor bug fixes
+786bb49 - woozieswang, Fri Apr 3 03:23:47 2026 +0800 : Delete SC2002 UML_Sequence_Diagram.jpg
+c067c19 - woozieswang, Fri Apr 3 03:22:06 2026 +0800 : Add files via upload
+42a03f3 - yunjingliu07-beep, Fri Apr 3 03:02:31 2026 +0800 : Add the final class diagram
+4338a8c - yunjingliu07-beep, Fri Apr 3 03:01:58 2026 +0800 : Delete SC2002_UML_ClassDiagram.png
+4ee1524 - yunjingliu07-beep, Fri Apr 3 03:01:24 2026 +0800 : Delete SC2002 UML Class Diagram.vpp
+128ed64 - yunjingliu07-beep, Fri Apr 3 03:01:15 2026 +0800 : Delete SC2002 UML Class Diagram.png
+d28956b - Blaze, Thu Apr 2 14:41:06 2026 +0800 : Add new function to retrieve items
+6baeea7 - Blaze, Thu Apr 2 14:39:11 2026 +0800 : Add new file's for future gui
+2b9c34f - Blaze, Thu Apr 2 14:38:41 2026 +0800 : Minor Bug fixes
+8e834af - Blaze, Sun Mar 29 18:19:22 2026 +0800 : Minor Bug fixes
+45174cc - Blaze, Sun Mar 29 17:54:05 2026 +0800 : Complete the whole game in ConsoleUI
+1b05345 - Blaze, Sat Mar 28 15:12:43 2026 +0800 : Complete class BattleEngine
+031be10 - Blaze, Fri Mar 27 20:58:14 2026 +0800 : Update
+8acbfe9 - Blaze, Fri Mar 27 20:58:05 2026 +0800 : Update part of the BattleEngine class, more to be added
+abd1840 - Blaze, Fri Mar 27 20:57:11 2026 +0800 : Modify the abstract methods adapting to changes in BattleContext
+1dab880 - Blaze, Fri Mar 27 20:47:36 2026 +0800 : Update UseItems class for empty inventory cases
+fc86197 - Blaze, Fri Mar 27 20:47:06 2026 +0800 : Update SmokeBomb class to add status info for SmokeBomb
+1e25989 - Blaze, Fri Mar 27 20:45:03 2026 +0800 : Add new method getBackupEnemies
+ba78fd4 - Blaze, Fri Mar 27 20:40:48 2026 +0800 : Add new method displayItems
+a66228d - Blaze, Fri Mar 27 20:40:21 2026 +0800 : Modify UseItem class for improved execute method
+e970574 - Blaze, Fri Mar 27 20:36:12 2026 +0800 : Update GameUI for a new method choose initial items
+703f9db - Blaze, Fri Mar 27 20:33:33 2026 +0800 : Update PotionItem class for displaying usage msg
+1ed0213 - Blaze, Fri Mar 27 19:55:20 2026 +0800 : Add new class BasicEnemyAttackStrategy
+d616c79 - Blaze, Fri Mar 27 19:48:50 2026 +0800 : Add new class SpeedBasedTurnOrderStrategy
+8b3778c - Blaze, Fri Mar 27 19:48:26 2026 +0800 : Remove unnecessary parameter
+e50e658 - Blaze, Fri Mar 27 19:42:41 2026 +0800 : Importing class BattleContext to all relevant classes
+633b9b9 - Blaze, Fri Mar 27 19:39:48 2026 +0800 : Add realization of the useSpecialSkill method
+8e10249 - Blaze, Fri Mar 27 19:33:31 2026 +0800 : Add BattleContext class
+75e7a23 - Blaze, Fri Mar 27 19:31:12 2026 +0800 : Add new item smoke bomb
+408eea2 - Blaze, Fri Mar 27 18:16:17 2026 +0800 : Add new enemy types Wolf & Goblin
+335cc72 - Blaze, Fri Mar 27 18:13:28 2026 +0800 : Remove method getActions()
+8747741 - Blaze, Fri Mar 27 18:12:23 2026 +0800 : Add new action class ArcaneBlast
+1b83d06 - Blaze, Fri Mar 27 18:07:03 2026 +0800 : Update ShieldBash so it can now display dmg dealt
+ec41ab9 - Blaze, Fri Mar 27 17:54:42 2026 +0800 : Create new class Wizard
+b87cb8c - Blaze, Fri Mar 27 17:49:35 2026 +0800 : Add new function canUseSpecialSkill()
+e420fe0 - Blaze, Fri Mar 27 17:48:48 2026 +0800 : Add new skill ShieldBash
+4e7605c - Blaze, Fri Mar 27 17:39:39 2026 +0800 : Add new abstract class SpecialSkill
+5953a81 - Blaze, Fri Mar 27 17:28:05 2026 +0800 : Add new class UseItems
+82c139f - Blaze, Fri Mar 27 17:20:43 2026 +0800 : update GameUI with new abstract methods to be used
+0e82f10 - Blaze, Fri Mar 27 17:13:25 2026 +0800 : Add new method getInventory
+890153f - Blaze, Fri Mar 27 17:07:03 2026 +0800 : Add defend action
+40ff60a - Blaze, Fri Mar 27 16:56:44 2026 +0800 : Add basic attack action
+67c742d - Blaze, Fri Mar 27 16:47:44 2026 +0800 : Remove unnecessary attribute ListOfActions
+35bcf48 - Blaze, Fri Mar 27 16:40:56 2026 +0800 : Add a new method getActions
+c36152b - Blaze, Fri Mar 27 16:37:10 2026 +0800 : Add the override comment
+d5924cd - Blaze, Fri Mar 27 16:36:43 2026 +0800 : Add new abstract method useSpecialSkill
+02fda2f - Blaze, Fri Mar 27 16:36:14 2026 +0800 : Add new item class PowerStone
+de2b25d - Blaze, Fri Mar 27 16:26:04 2026 +0800 : remove the list of special skills in AbstractCombatant
+afd67eb - Blaze, Fri Mar 27 16:23:22 2026 +0800 : Add a new function getCurrentAttributes
+f4a0200 - Blaze, Fri Mar 27 14:03:18 2026 +0800 : Add 2 new functions isEmpty() and getSize()
+76c1790 - Blaze, Fri Mar 27 13:56:23 2026 +0800 : Add new methods removeExpireEffect and tickEffects
+f62331a - Blaze, Fri Mar 27 13:49:19 2026 +0800 : Update the class ArcaneBoostEffect so it adds atk correctly
+6e1bc2e - Blaze, Fri Mar 27 13:35:42 2026 +0800 : Remove useless parameters in the onTick() function
+f3db18f - Blaze, Fri Mar 27 13:29:49 2026 +0800 : Adding a new outcome ONGOING
+fb3b11e - woozieswang, Fri Mar 27 03:16:34 2026 +0800 : Add files via upload
+aadeedd - Madhan, Thu Mar 26 18:46:51 2026 +0800 : Add files via upload
+8b6d5e9 - Madhan, Thu Mar 26 00:35:09 2026 +0800 : Add files via upload
+6dae4cc - Blaze, Wed Mar 25 14:20:01 2026 +0800 : Adding the concrete class PotionItem
+679ccc8 - Blaze, Wed Mar 25 14:19:17 2026 +0800 : Modify the heal() method to reach ideal effect
+8dab585 - Blaze, Wed Mar 25 14:15:16 2026 +0800 : Adding the complete StunEffect class
+5f0766b - Blaze, Wed Mar 25 12:11:54 2026 +0800 : Part of the StunEffect added, will continue to add later
+1ebf35a - Blaze, Wed Mar 25 12:09:54 2026 +0800 : Add the concrete class ArcaneBoostEffect
+bf24d27 - Blaze, Wed Mar 25 11:53:07 2026 +0800 : Add the concrete class DefenseBuffEffect
+d031e05 - Blaze, Wed Mar 25 11:38:26 2026 +0800 : Import Enemy to interface EnemyActionStrategy
+5e73020 - Blaze, Wed Mar 25 11:37:58 2026 +0800 : Adding the abstract class Enemy
+b048a16 - Blaze, Wed Mar 25 11:35:08 2026 +0800 : Import Player to interface Items
+4133eab - Blaze, Wed Mar 25 11:34:49 2026 +0800 : Adding the abstract class Player
+37da7c0 - Blaze, Wed Mar 25 11:21:50 2026 +0800 : Adding the concrete class Inventory to be used in Player
+98eb056 - Blaze, Wed Mar 25 10:37:26 2026 +0800 : Adding the interface StatusEffects for future devlopment
+0f54d31 - Blaze, Wed Mar 25 10:36:54 2026 +0800 : Complete the interface Combatant with relevant packages imported
+de28dfd - Blaze, Wed Mar 25 10:16:12 2026 +0800 : Complete the abstract class AbstractCombatant
+aee1ac0 - Blaze, Tue Mar 24 16:05:29 2026 +0800 : Commit primary interfaces to be used
+67254cf - Blaze, Tue Mar 24 14:19:48 2026 +0800 : Update gitignore
+0bbeecf - Blaze, Tue Mar 24 14:15:46 2026 +0800 : Adjustments
+2cf1c5a - Blaze, Tue Mar 24 14:00:52 2026 +0800 : Adding Main.java for future dev
+17ec2d9 - Blaze, Tue Mar 24 13:49:58 2026 +0800 : Merge remote-tracking branch 'origin/main'
+0221133 - Blaze, Tue Mar 24 13:49:42 2026 +0800 : commit using IntelliJ IDEA
+f82f34a - Madhan, Mon Mar 23 19:27:20 2026 +0800 : Add files via upload
+2dd99ac - yunjingliu07-beep, Mon Mar 16 15:22:27 2026 +0800 : Delete test.py
+e6195e9 - yunjingliu07-beep, Mon Mar 16 15:13:27 2026 +0800 : Delete test2.class
+1b62983 - yunjingliu07-beep, Mon Mar 16 15:13:18 2026 +0800 : Delete test2.java
+3877ebf - Blaze, Mon Mar 16 15:07:05 2026 +0800 : vscode commit test
+ec8a092 - Blaze, Mon Mar 16 15:02:06 2026 +0800 : mac commit test
+b28c60b - yunjingliu07-beep, Sun Mar 15 22:49:03 2026 +0800 : Initial commit
